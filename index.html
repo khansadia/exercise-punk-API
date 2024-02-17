@@ -4,9 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Punk API</title>
-    <link rel="stylesheet" href="index.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap""
+    rel="stylesheet">
+    <link rel="stylesheet" href="index.css>
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
-    <script src="index.js" type="module"></script>
+    <main class="container" id="main-page">
+      <h1 class="container-text">Welcome to BeerLand!</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search for a beer" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="results">
+        <h2 class="header-results">Search Results:</h2>
+        <p id="main-error-message"></p>
+        <ul id="search-results" class="beer-list"></ul>
+        <div id="spinner" class="spinner"></div>
+        <div id="pagination-buttons"></div>
+      </div>
+      <div class="wrapper">
+        <div class="beer-card">
+          <img src="" alt="beer Image" />
+          <div class="beer-information">
+            <button id="random-beer-btn">Beer</button>
+            <h2 class="beer-header">Name: <span class="beer-name"></span></h2>
+            <a id="more-info-beer-btn" href="beer-details.html">See more</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; <span id="current-year"></span> Beer Brewery</p>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>

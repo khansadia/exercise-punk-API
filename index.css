@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  form {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-self: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 2px solid #030127;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #030127;
+  }
+  
+  button:hover {
+    background-color: #333245;
+  }
+  
+  button {
+    padding: 10px 16px;
+    background-color: #030127;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    margin: 10px;
+  }
+  
