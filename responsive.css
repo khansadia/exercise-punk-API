@@ -1,0 +1,22 @@
+@media screen and (max-width: 820px) {
+  form {
+    top: 30%;
+  }
+
+  button {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .wrapper {
+    padding: 50px 30px;
+  }
+
+  ul.beer-list {
+    padding: 0 20px;
+  }
+
+  .header-results {
+    padding: 20px 20px;
+  }
+}
